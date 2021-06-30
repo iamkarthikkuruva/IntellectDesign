@@ -1,0 +1,69 @@
+<html>
+<head>
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
+</head>
+<body>
+	<div class="card">
+		<div class="card-header bg-primary text-white text-center">
+			<h3>Products Data Page!</h3>
+		</div>
+	</div>
+	<form action="product" class="form-control">
+		<table class="table table-hover">
+		<tr class="bg-info text-white">
+			<th>ID</th>
+			<th>CODE</th>
+			<th>COST</th>
+			<th>VENDOR</th>
+			<th>NOTE</th>
+			<th>GST</th>
+			<th>DISCOUNT</th>
+			<th>OPERATIONS</th>
+		</tr>
+			<tr class="bg-info text-white">
+				<td>ENTER PRODUCT ID</td>
+				<td><input type="text" name="pid"></td>
+			</tr>
+			<tr class="bg-info text-white">
+				<td><input type="submit" name="submit" value="Find Product" class="btn btn-primary">
+				</td>
+			</tr>
+
+			<tr class="bg-info text-white">
+				<td><input type="submit" name="submit" value="Fetch Product" class="btn btn-success">
+				</td>
+			</tr class="bg-info text-white">
+			
+			<tr class="bg-info text-white">
+				<td>ENTER PRODUCT ID</td>
+				<td><input type="text" name="pid"></td>
+				<td><input type="submit" name="submit" value="Update Product" class="btn btn-primary">
+				</td>
+			</tr>
+
+			<tr class="bg-info text-white">
+				<td>ENTER PRODUCT CODE</td>
+				<td><input type="text" name="pCod"></td>
+				<td><input type="submit" name="submit" value="Delete Product" class="btn btn-danger">
+				</td>
+			</tr>
+		</table>
+	</form>
+
+
+
+	<!-- <table class="table table-hover">
+		
+		<tr>
+			<a href="editProduct.html" class="btn btn-success">EDIT</a>
+			<a href="deleteProduct.html" class="btn btn-danger">DELETE</a>
+		</tr>
+		<a href="fetchProduct.html" class="btn btn-danger">Fetch Product </a>
+		<input type="submit" name="submit" value="fetchProduct">
+
+	</table> -->
+	<hr />
+	<a href="registerProduct.html" class="btn btn-info">>>Add New!>></a>
+</body>
+</html>
